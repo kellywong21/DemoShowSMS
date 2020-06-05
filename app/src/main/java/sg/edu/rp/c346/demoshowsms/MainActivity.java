@@ -78,7 +78,6 @@ public class MainActivity extends AppCompatActivity {
                     }while (cursor.moveToNext());
                 }
                 tvSMS.setText(smsBody);
-
             }
         });
     }
